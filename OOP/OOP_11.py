@@ -15,7 +15,7 @@ class Person:
 
     @property
     def surname(self):
-        return self._name
+        return self._surname
 
     @surname.setter
     def surname(self, value):
@@ -42,3 +42,5 @@ print(p.full_name)  # -> 'John J'
 
 # После вызова метода full_name полное имя закэшировалось
 print(p.__dict__)  # -> {..., '_fullname': 'John J'}
+
+print(p.surname)
