@@ -30,8 +30,8 @@ def simple_deco(func):  # Передали inner
     return inner_2
 
 
-@simple_deco
-@second_outer(5)
+@simple_deco  # -> inner_2
+@second_outer(5)  # -> outer(div) -> inner
 def div(a, b):
     return a / b
 
