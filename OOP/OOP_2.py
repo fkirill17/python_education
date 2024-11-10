@@ -29,4 +29,4 @@ class Person:
 
 
 print(Person.__dict__['hello'])  # -> <function Person.hello at 0x000001715F9780E0>
-print(Person.hello())  # -> 'Hello'
+Person.hello()  # -> 'Hello'

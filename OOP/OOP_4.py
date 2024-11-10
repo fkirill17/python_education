@@ -38,6 +38,7 @@ class Person:
 
 p = Person()
 print(p.hello())  # -> <__main__.Person object - Cсылка на экземпляр класса p
+print(p.__dict__)  # -> {}
 
 
 class Person:
