@@ -60,5 +60,13 @@ s = Student()
 s.get_food()  # -> 'I like Cheburek'
 s.hello()  # -> 'I am Student'
 
+# Порядок разрешения имён в данном примере
+print(s.__dict__)  # -> {} В словаре экземпляра класса пусто, идём в класс
+print(Student.__dict__)  # -> {..., 'food': 'Cheburek', 'hello': <function..., ...} - Взяли 'Cheburek' и 'hello'
+print(FoodMixin.__dict__)  # -> {..., 'food': None, 'get_food': <function..., ...} - Используем 'get_food'
+print(Person.__dict__)  # {..., 'hello': <function..., ...} - Мы не взяли 'hello', так как он уже взят
+
 # Миксин используем когда фичу нужно подмешать большому количеству не связанных родственными узами классов
 # Любимую еду подмешиваем любым не связанным между собой классам
+
+
