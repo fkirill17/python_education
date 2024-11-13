@@ -1,52 +1,3 @@
-# class Person:
-#     def __init__(self, name, surname):
-#         self._name = name  # свойство _name должно быть строкой
-#         self._surname = surname  # свойство _surname должно быть строкой
-#         self._fullname = None
-#
-#     @property
-#     def name(self):
-#         return self._name
-#
-#     @name.setter
-#     def name(self, value):
-#         self._name = value
-#         self._fullname = None  # Когда вызываем сеттер - обнуляем кэш
-#
-#     @property
-#     def surname(self):
-#         return self._surname
-#
-#     @surname.setter
-#     def surname(self, value):
-#         self._surname = value
-#         self._fullname = None  # Когда вызываем сеттер - обнуляем кэш
-
-
-# class StringD:
-#     def __init__(self, value=0):
-#         self._value = None
-#         if value:
-#             self.set(value)
-#
-#     def set(self, value):
-#         self._value = value
-#
-#     def get(self):
-#         return self._value
-#
-#
-# class Person:
-#     def __init__(self, name, surname):
-#         self.name = StringD(name)
-#         self.surname = StringD(surname)
-#
-#
-# p = Person('John', 'S')
-#
-# print(p.name.get())
-# print(p.surname.get())
-
 from time import time
 from random import choice
 
@@ -56,8 +7,8 @@ class Epoch:
         return int(time())
 
 
-# 2 аргумент, это экземпляр класса из которого происходит обращение к свойству
-# 3 аргумент, это класс собственник
+# Аргумент instance - экземпляр класса, из которого обратились к __get__
+# Аргумент owner_class - класс из которого был создан экземпляр instance
 
 
 class MyTime:
