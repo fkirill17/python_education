@@ -72,7 +72,7 @@ class Choice:
     def __init__(self, *choice):
         self._choice = choice
 
-    def __get__(self, instance, owner):
+    def __get__(self, instance, owner_class):
         return choice(self._choice)
 
 
