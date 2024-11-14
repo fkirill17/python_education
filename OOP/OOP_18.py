@@ -33,7 +33,9 @@ class Game:
     rps = Choice('Rock', 'Paper', 'Scissor')
 
 
+
 g = Game()
+
 
 print(g.dice)  # -> 2
 print(g.flip)  # -> 'Tails'

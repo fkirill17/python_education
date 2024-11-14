@@ -6,7 +6,7 @@ class IntDescroptor:
         self._values[instance] = value
 
     def __get__(self, instance, owner):
-        if instance is None:
+        if instance is None:  # Обратить внимание
             return self
         return self._values.get(instance)
 
@@ -34,7 +34,7 @@ print(Vector.__dict__)  # -> {..., 'x': 'Ссылка на дескриптор-
 
 # Переходим по ключам x, y в словаре класса Vector, и видим словари самих дескрипторов
 print(Vector.x.__dict__)  # -> {'_values': {'Ссылка на v1',: 1, 'Ссылка на v2': 14}}
-print(Vector.y.__dict__)  # -> {'_values': {'Ссылка на y1',: 4, 'Ссылка на y2': 8}}
+print(Vector.y.__dict__)  # -> {'_values': {'Ссылка на v1',: 4, 'Ссылка на v2': 8}}
 
 # В этих примерах мы вызываем метод __get__ для экземпляров x, y
 print(v1.x)  # -> 1 Метод дескриптора-1 get(self='Ссылка на дескриптор-1', instance='Ссылка на v1', owner='Vector')
