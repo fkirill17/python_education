@@ -25,7 +25,6 @@ p.print_name_self()  # -> 'Dima'
 p.name = 'Kirill'
 print(p.__dict__)  # -> {'name': 'Kirill'} - Изменилось только свойство экземпляра
 print(Person.name)  # -> 'Dima'
-
 p.print_name_self()  # -> 'Kirill'
 
 # Из экземпляра мы можем только читать свойства класса, но не менять их. @classmethod позволяет сделать это

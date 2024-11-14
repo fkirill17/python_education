@@ -29,7 +29,7 @@ class Epoch:
     def __get__(self, instance, owner_class):
         if instance is None:  # Если вызов произошел из класса
             return self
-        return int(time())  # Если вызов проищошел из экземпляра класса
+        return int(time())  # Если вызов произошел из экземпляра класса
 
 
 class MyTime:
