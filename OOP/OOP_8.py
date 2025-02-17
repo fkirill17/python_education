@@ -49,3 +49,7 @@ class Account:
 a = Account("Kirill", 0)
 
 
+a.deposit(100)
+a.withdraw(21)
+a.show_history()
+
