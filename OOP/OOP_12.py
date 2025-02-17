@@ -36,12 +36,12 @@ i5 = I5()
 
 print(isinstance(i5, type(i7)))  # False так как i5 не является экземпляром класса I7
 print(isinstance(i5, type(i5)))  # True так как i5 является экземпляром класса I5,
+
+print(type(i5))  # -> <class '__main__.I5'> Ссылка на модуль, название класса
 # type(i5) -> класс I5, из которого был создан экземпляр i5
 
 print(isinstance(i5, IntelCpu))  # -> True - Является ли экземпляр i5 экземпляром класса IntelCpu?
 print(isinstance(i7, IntelCpu))  # -> True - Является ли экземпляр i7 экземпляром класса IntelCpu?
-
-print(type(i5))  # -> <class '__main__.I5'> Ссылка на модуль, название класса
 
 
 class One:

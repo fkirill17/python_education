@@ -16,7 +16,7 @@ s.hello()  # -> 'Hello am student'
 
 # Вся суть перегрузки методов в том, как Python находит атрибуты в пространстве имен
 # Python не находит в экземпляре метода hello, но зато находит этот метод в классе Student и сразу выполняет его
-# если бы в классе Student не было этого метода, то выполнится метод из класса Person
+# если бы в классе Student не было бы этого метода, то выполнился бы метод из класса Person
 
 
 class Student(Person):
@@ -25,7 +25,7 @@ class Student(Person):
 
 
 s = Student()
-s.hello()  # -> 'Hello'
+s.hello()  # -> 'Hello'  Так как мы заново объявили класс Student!!!
 s.goodbye()  # -> Goodbye
 
 
@@ -41,7 +41,7 @@ class Student(Person):
     pass
 
 
-s = Student('Ivan')  # Дочерний класс наследует все методы класса родителя
+s = Student('Ivan')  # Дочерний класс наследует все методы класса родителя!!!
 print(s.__dict__)  # -> {'name': 'Ivan'}
 print(s.hello())  # -> 'Hello Ivan' - В self был передан тот экземпляр класса, который вызвал этот метод
 

@@ -50,7 +50,7 @@ class Person:
 
 
 class Student(FoodMixin, Person):
-    food = 'Cheburek'
+    food = 'Cheburek'  # Попадёт в self экземпляров Student, если у экземпляров нет собственного "food"!!!
 
     def hello(self):
         print('I am Student')
@@ -69,4 +69,9 @@ print(Person.__dict__)  # {..., 'hello': <function..., ...} - Мы не взял
 # Миксин используем когда фичу нужно подмешать большому количеству не связанных родственными узами классов
 # Любимую еду подмешиваем любым не связанным между собой классам
 
+
+s = Student()
+s.food = 'Greth'
+s.get_food()  # -> 'I like Greth'
+s.hello()  # -> 'I am Student'
 
