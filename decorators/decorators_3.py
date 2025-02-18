@@ -36,4 +36,4 @@ def div(a, b):
     return a / b
 
 
-print(div(5, 0))
+print(div(5, 1))
