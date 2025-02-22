@@ -1,14 +1,8 @@
-def outher(func):
-    def inner(*args, **kwargs):
-        print("Тестовое сообщение")
-        return func(*args, **kwargs)
-
-    return inner
+def func(**kwargs):
+    print(kwargs['a'])  # -> 1
+    print(kwargs['b'])  # -> 2
 
 
-@outher
-def div(a, b):
-    return a * b
+dct = {'a': 1, 'b': 2}
 
-
-print(div(6, 5))
+print(func(**dct))
