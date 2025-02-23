@@ -100,7 +100,7 @@ def example_4():
         print(f"Привет, {name}! Тебе {age} лет.")
 
     person = {"name": "Алиса", "age": 25}
-    greet(**person) # !!!
+    greet(**person)  # !!!
 
 
 # TODO Срезы - Slice
@@ -111,7 +111,17 @@ my_list = [1, 2, 3][::-1]  # -> [3, 2, 1] - Разворот списка
 _ = {**{}}  # Распаковка словаря внутри другого словаря
 
 # TODO Утверждение assert
-assert h, 'test'  # ??? Используется в тестах
+x = 9
+assert x > 10, 'Число меньше 10'  # -> AssertionError: Число меньше 10 (Код прекращает работу)
+# Происходит проверка условия, если условие False, происходит ошибка AssertionError
+
+"""При запуске Python с флагом -O (optimization) все assert будут игнорироваться:
+Поэтому assert не должен использоваться для обработки ошибок в реальном коде — только для отладки!"""
+
+
+def divide(a, b):
+    assert b != 0, "Деление на ноль запрещено"
+    return a / b
 
 
 def func(text: str, space: str, action: Callable) -> None:
