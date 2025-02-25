@@ -1,3 +1,4 @@
+# TODO Синтаксис функций
 def func_1(*args: int, **kwargs: str) -> None:
     print(args)  # -> (1, 2, 3, 4)
     print(kwargs)  # -> {'name': 'John'}
@@ -41,6 +42,3 @@ def func_4(*, age: int, name: str) -> None:
 
 func_4(23, name='Alice')  # -> TypeError: func_4() takes 0 positional arguments but 1 positional argument (and 1 keyword-only argument) were given
 func_4(age=23, name='Alice')  # -> Передача КЛЮЧЕВЫХ аргументов
-
-
-def func_5(id: int, *, age: int, name: str):
