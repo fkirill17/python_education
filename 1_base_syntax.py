@@ -124,6 +124,7 @@ def divide(a, b):
     return a / b
 
 
+# TODO Синтаксис функций
 def func(text: str, space: str, action: Callable) -> None:
     if not text:
         return  # Оператор возврата
@@ -140,10 +141,6 @@ def func(text: str, space: str, action: Callable) -> None:
     print(space + action(text))  # ???
     func(text[1:], space + ' ', action)  # ???
     print(space + action(text))  # ???
-
-
-# lambda функции
-func('*', '', lambda text: ' '.join(i for i in text))
 
 
 def func_2(*args, **kwargs): """*args - передача произвольного количества ПОЗИЦИОННЫХ аргуметнтов в функцию внутри tuple - func_2(1, 2, 3)
@@ -171,6 +168,10 @@ def func_5(age: int, *, name: str): """
 
 Все аргументы после * передаются ТОЛЬКО как КЛЮЧЕВЫЕ - func_5(1, name="John")
 Если вызов будет - func_5(1, "John") произойдет ошибка"""
+
+
+# TODO lambda функции
+func('*', '', lambda text: ' '.join(i for i in text))
 
 
 # TODO Декораторы
