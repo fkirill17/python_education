@@ -10,7 +10,8 @@ def my_deco(exceptions: list[tuple[Exception, callable]]):
                 for ex in exceptions:
                     if isinstance(e, ex[0]):
                         ex[1]()
-                        raise e
+                        break
+                raise e
         return wrapper_1
 
     return wrapper
