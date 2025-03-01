@@ -1,8 +1,8 @@
 def longestCommonPrefix(strs):
     if not strs:
         return ""
-    prefix = strs[0] # 'fl'
-    for word in strs[1:]:  # 'flsfs'
+    prefix = strs[0]
+    for word in strs[1:]:
         while not word.startswith(prefix):
             prefix = prefix[:-1]
         if not prefix:
@@ -10,4 +10,4 @@ def longestCommonPrefix(strs):
     return prefix
 
 
-print(longestCommonPrefix(['flsf', 'fledfw', 'flsfs']))
+print(longestCommonPrefix(['flsf', 'fledfw', 'flsfs']))  # -> 'fl'

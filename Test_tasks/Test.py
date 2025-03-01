@@ -1,20 +1,17 @@
-class Solution(object):
-    def mergeTwoLists(self, list1, list2):
-        if list1 == [] and list2 == []:
-            return []
-        elif list1 == [] and list2 != []:
-            return list2
-        elif list1 != [] and list2 == []:
-            return list1
-        lst = []
-        for x, y in zip(list1, list2):
-            if x <= y:
-                lst.append(x)
-                lst.append(y)
-            else:
-                lst.append(y)
-                lst.append(x)
-        return lst
+def longestCommonPrefix(strs):
+    if not strs:
+        return ""
+    prefix = strs[0]
+    for x in strs[1:]:
+        while not x.startswith(prefix):
+            prefix = prefix[:-1]
+        if not prefix:
+            return ""
+    return prefix
 
 
-print(Solution().mergeTwoLists([1,2,4], [1,3,4]))
+
+
+
+
+print(longestCommonPrefix(['flsf', 'fledfw', 'flsfs']))  # -> 'fl'
