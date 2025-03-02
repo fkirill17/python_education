@@ -10,4 +10,4 @@ def longestCommonPrefix(strs):
     return prefix
 
 
-print(longestCommonPrefix(['flsf', 'fledfw', 'flsfs']))  # -> 'fl'
+print(longestCommonPrefix(['flsf', 'fledfw', 'flsfs', 'fl']))  # -> 'fl'
