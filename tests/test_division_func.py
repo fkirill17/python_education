@@ -2,13 +2,22 @@ from pytest_edu.utils import div
 import pytest
 
 
+def test():  # Тест
+    assert div(1, 2)  # Тесткейс
+
+
+def test_2():
+    with pytest.raises(ZeroDivisionError):  # Проверяем что функция отдаст имеено эту ошибку
+        div(1, 0)
+
+
 @pytest.mark.parametrize("a, b, expected_result", [(10, 2, 5),
                                                    (20, 10, 2),
                                                    (5, 2, 2.5),
-                                                   (30, -3, -10), ])  # Декоратор позволяет передать несколько тестов
-# в один тест
-def test_div_good(a, b, expected_result):  # Тест
-    assert div(a, b) == expected_result  # Тесткейс
+                                                   (30, -3, -10), ])  # Декоратор для запуска одного теста
+# с разными входными параметрами
+def test_div_good(a, b, expected_result):
+    assert div(a, b) == expected_result
 
 
 @pytest.mark.parametrize("expected_exception, division, divider", [(ZeroDivisionError, 10, 0),
