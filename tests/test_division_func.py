@@ -1,13 +1,13 @@
-from pytest_edu.utils import div
+from pytest_edu.division_func import div
 import pytest
 
 
 def test():  # Тест
-    assert div(1, 2)  # Тесткейс
+    assert div(1, 2) == 0.5  # Тесткейс
 
 
 def test_2():
-    with pytest.raises(ZeroDivisionError):  # Проверяем что функция отдаст имеено эту ошибку
+    with pytest.raises(ZeroDivisionError):  # Проверяем что функция вернет именно эту ошибку
         div(1, 0)
 
 
