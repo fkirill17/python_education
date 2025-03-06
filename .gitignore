@@ -1,4 +1,5 @@
 __pycache__
-venv
+.venv
 .idea
 OOP/__pycache__
+venv
