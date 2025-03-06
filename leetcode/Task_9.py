@@ -14,4 +14,3 @@ def isPalindrome(x: int) -> bool:
 
 
 print(isPalindrome(12321))
-
