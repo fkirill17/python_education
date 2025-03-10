@@ -11,5 +11,4 @@ def plusOne(digits: list) -> list:
     return digits[::-1]
 
 
-
-print(plusOne([9, 8]))
+print(plusOne([9, 9]))
