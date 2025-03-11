@@ -10,4 +10,4 @@ def lengthOfLastWord(s):
             return len(lst_2)
 
 
-print(lengthOfLastWord("a"))
+print(lengthOfLastWord("a aaa aaaaa  "))
