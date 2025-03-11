@@ -1,4 +1,4 @@
-def isValid(self, s):
+def isValid(s):
     open_to_close = {
         '}': '{',
         ')': '(',
@@ -15,3 +15,6 @@ def isValid(self, s):
             stack.append(c)  # Добавляем скобку в стек
 
     return not stack  # Если нет стека неявно вернется True
+
+
+print(isValid("()()())"))
