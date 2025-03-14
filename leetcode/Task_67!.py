@@ -16,4 +16,4 @@ def addBinary(a: str, b: str) -> str:
 
     return ''.join(result[::-1])
 
-addBinary("1010", "1011")
+print(addBinary("1010", "1011"))
