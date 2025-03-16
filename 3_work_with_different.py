@@ -33,7 +33,7 @@ timestamp = time.time()
 from_timestamp = datetime.datetime.fromtimestamp(timestamp)
 
 
-# работа с Decimal
+# Работа с Decimal
 context = decimal.getcontext()
 context.rounding = decimal.ROUND_DOWN
 
@@ -42,7 +42,7 @@ b = decimal.Decimal(0.3)
 c = b.quantize(decimal.Decimal('.0001'), rounding=decimal.ROUND_UP)
 
 
-# работа с регулярными выражениями
+# Работа с регулярными выражениями
 pattern = re.compile(r'^@(\w+)$')
 nicknames = ['@qweqwe', '@@qweqwe', 'qweqwe', 'qwe@qwe']
 valid_nicknames = [i for i in nicknames if re.match(pattern, i)]

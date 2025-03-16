@@ -1,5 +1,7 @@
 __pycache__
 .venv
 .idea
-OOP/__pycache__
+oop/__pycache__
 venv
+algorithms/leetcode/_leetcode_easy_roadmap_v0.xlsx
+algorithms/leetcode/_time-complexity.jpg
