@@ -26,7 +26,7 @@
 
 **4. [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) — Array, Binary Search**
 
-**<span style="color:yellow;">5. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Array, Dynamic Programming — Решил указателями за O(n)**
+**<span style="color:yellow;">5. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Array, Dynamic Programming — Решил двумя указателями за O(n)**
 
 ## Week 2:
 **6. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) — String**
