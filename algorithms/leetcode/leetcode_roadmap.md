@@ -6,7 +6,7 @@
 
 3. Один подход - 60 минут. Если не идёт делаем прерыв.
 
-4. В день на задачу два подхода.
+4. В день два подхода.
 
 5. Если на след. день не получилось за подход, смотрим решение.
 
@@ -20,7 +20,7 @@
 
 **<span style="color:yellow;">1. [1. Two Sum](https://leetcode.com/problems/two-sum/) — Array, Hash Table. — Решил через hash-map за O(n)**
 
-**2. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) — Array, Two Pointers**
+**<span style="color:yellow;">2. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
 **3. [27. Remove Element](https://leetcode.com/problems/remove-element/) — Array, Two Pointers**
 
