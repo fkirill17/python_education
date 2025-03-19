@@ -1,4 +1,5 @@
 ## Манифест
+_Манифест полностью прочитываю каждый день перед решением._
 
 1. Задачу решаем внутри сайта _leetcode_.
 
@@ -6,13 +7,15 @@
 
 3. Один подход - 60 минут. Если не идёт делаем прерыв.
 
-4. В день два подхода.
+4. В день не больше двух подходов.
 
 5. Если на след. день не получилось за подход, смотрим решение.
 
 6. Каждое решение заносим в IDE, в комментариях выделяем паттерны.
 
 7. Решения заносим в бота, запоминаем патерны. При повторении проходим дебаггером.
+
+8. Просматриваем последние 4 решения, выделяем паттерны.
 
 
 
@@ -22,7 +25,7 @@
 
 **<span style="color:yellow;">2. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
-**3. [27. Remove Element](https://leetcode.com/problems/remove-element/) — Array, Two Pointers**
+**<span style="color:yellow;">3. [27. Remove Element](https://leetcode.com/problems/remove-element/) — Array, Two Pointers — Решил указателем за O(n)**
 
 **4. [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) — Array, Binary Search**
 

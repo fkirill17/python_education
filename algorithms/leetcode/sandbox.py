@@ -1,15 +1,12 @@
-def removeDuplicates(nums):
-    l, r = 0, 1
+def removeElement(nums, val):
     k = 0
-    while r < len(nums):
-        if nums[l] == nums[r]:
-            nums.pop(r)
-            nums.append(0)
+    for idx, num in enumerate(nums):
+        if num == val:
+            nums.pop(idx)
         else:
             k += 1
-            l = r
-            r += 1
-    return len(nums)
+    print(nums)
+    return k
 
 
-print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
+print(removeElement([0,1,2,2,3,0,4,2], val=2))
