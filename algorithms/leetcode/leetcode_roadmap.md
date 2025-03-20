@@ -27,7 +27,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">3. [27. Remove Element](https://leetcode.com/problems/remove-element/) — Array, Two Pointers — Решил указателем за O(n)**
 
-**4. [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) — Array, Binary Search**
+**<span style="color:yellow;">4. [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) — Array, Binary Search — Решил через бинарный поиск за O(log n)**
 
 **<span style="color:yellow;">5. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Array, Dynamic Programming — Решил двумя указателями за O(n)**
 
