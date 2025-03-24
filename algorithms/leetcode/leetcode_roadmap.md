@@ -32,7 +32,7 @@ _Манифест полностью прочитываю каждый день 
 **<span style="color:yellow;">5. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Array, Dynamic Programming — Решил двумя указателями за O(n)**
 
 ## Week 2:
-**6. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) — String**
+**<span style="color:yellow;">6. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) — String — Решил двумя указателями за O(n)**
 
 **7. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) — String**
 
