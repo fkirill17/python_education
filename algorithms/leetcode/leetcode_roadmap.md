@@ -34,7 +34,7 @@ _Манифест полностью прочитываю каждый день 
 ## Week 2:
 **<span style="color:yellow;">6. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) — String — Решил двумя указателями за O(n)**
 
-**7. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) — String**
+**<span style="color:yellow;">7. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) — String — Решил вложенными циклами за O(n^2)**
 
 **8. [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) — String**
 
