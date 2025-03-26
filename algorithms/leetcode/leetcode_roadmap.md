@@ -36,9 +36,9 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">7. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) — String — Решил вложенными циклами за O(n^2)**
 
-**8. [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) — String**
+**<span style="color:yellow;">8. [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) — String — Решил циклом за O(n)**
 
-**9. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — String, Two Pointers**
+**<span style="color:yellow;">9. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — String, Two Pointers — Решил регулярными выражениями**
 
 **10. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) — String, Hash Table**
 
