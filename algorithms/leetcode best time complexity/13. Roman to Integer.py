@@ -25,3 +25,6 @@ def romanToInt(s):
     if l < len(lst):
         lst_2.append(lst[-1])
     return sum(lst_2)
+
+
+print(romanToInt("MDIX"))

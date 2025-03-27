@@ -15,7 +15,7 @@ _Манифест полностью прочитываю каждый день 
 
 7. Решения заносим в бота, запоминаем патерны. При повторении проходим дебаггером.
 
-8. Просматриваем последние 4 решения, выделяем паттерны.
+8. Прокручиваем код последних 4 решений в голове, выделяем паттерны.
 
 
 
@@ -40,7 +40,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">9. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — String, Two Pointers — Решил регулярными выражениями**
 
-**10. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) — String, Hash Table**
+**<span style="color:yellow;">10. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) — String, Hash Table — Решил через hash_table за O(n)**
 
 ## Week 3:
 
