@@ -44,13 +44,13 @@ _Манифест полностью прочитываю каждый день 
 
 ## Week 3:
 
-**11. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack**
+**<span style="color:yellow;">11. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack — Решил через стек за O(n)**
 
-**12. [155. Min Stack](https://leetcode.com/problems/min-stack/) — Stack**
+**<span style="color:red;">12. [155. Min Stack](https://leetcode.com/problems/min-stack/) — Stack — Задача medium**
 
-**13. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue**
+**<span style="color:red;">13. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue**
 
-**14. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue**
+**<span style="color:red;">14. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил стандартными средствами Python за O(1)**
 
 **15. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table**
 
