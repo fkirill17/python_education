@@ -48,9 +48,9 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:red;">12. [155. Min Stack](https://leetcode.com/problems/min-stack/) — Stack — Задача medium**
 
-**<span style="color:red;">13. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue**
+**<span style="color:yellow;">13. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue — Решил стандартными средствами Python за O(1)**
 
-**<span style="color:red;">14. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил стандартными средствами Python за O(1)**
+**<span style="color:yellow;">14. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил стандартными средствами Python за O(1)**
 
 **15. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table**
 

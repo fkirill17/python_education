@@ -1,13 +1,23 @@
-def lengthOfLastWord(s):
-    cnt = 0
-    for i in s[::-1]:
-        if not cnt and i == ' ':
-            continue
-        elif i != ' ':
-            cnt += 1
-        elif cnt and i == ' ':
-            break
-    return cnt
+import functools
 
 
-print(lengthOfLastWord("   fly me   to   the moon  "))
+def repeat(num):
+    def outer(func):
+        @functools.wraps(func)
+        def inner(*args, **kwargs):
+            for i in range(num):
+                print(i)
+                func(*args, **kwargs)
+        return inner
+    return outer
+
+
+@repeat(3)
+def my_func(a, b):
+    """my_func"""
+    print("Результат деления", a / b)
+
+
+my_func(10, 2)
+
+print(my_func.__doc__)
