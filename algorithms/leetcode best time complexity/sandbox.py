@@ -1,23 +1,16 @@
-import functools
+lst = [1, 2, 3]
 
+if 1 in lst:
+    print(True)
+else:
+    print(False)
 
-def repeat(num):
-    def outer(func):
-        @functools.wraps(func)
-        def inner(*args, **kwargs):
-            for i in range(num):
-                print(i)
-                func(*args, **kwargs)
-        return inner
-    return outer
+if 2 in lst:
+    print(True)
+else:
+    print(False)
 
-
-@repeat(3)
-def my_func(a, b):
-    """my_func"""
-    print("Результат деления", a / b)
-
-
-my_func(10, 2)
-
-print(my_func.__doc__)
+if 4 in lst:
+    print(True)
+else:
+    print(False)
