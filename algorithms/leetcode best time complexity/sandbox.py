@@ -1,16 +1,12 @@
-lst = [1, 2, 3]
+def add_item(item, x=[]):    # Изменяем список
+    if item == 1:
+        x.append(True)
+    else:
+        x.append(False)
+    return x
 
-if 1 in lst:
-    print(True)
-else:
-    print(False)
+print(add_item(2))  # [1, 2]  (ожидали [2], но список сохранился!)
+print(add_item(3))  # [1, 2, 3]
 
-if 2 in lst:
-    print(True)
-else:
-    print(False)
-
-if 4 in lst:
-    print(True)
-else:
-    print(False)
+print(add_item(1))  # [1]
+print(add_item(3))

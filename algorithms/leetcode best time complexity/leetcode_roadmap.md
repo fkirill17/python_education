@@ -52,11 +52,11 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">14. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил стандартными средствами Python за O(1)**
 
-**15. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table**
+**<span style="color:yellow;">15. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table — Решил стандартными средствами Python за O(1)**
 
 ## Week 4:
 
-**16. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — Array, Two Pointers**
+**<span style="color:yellow;">16. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
 **17. [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) — Array, Two Pointers, Binary Search**
 
