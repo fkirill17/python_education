@@ -2,9 +2,9 @@ def merge(nums1, m, nums2, n):
     idx = 0
     while m < len(nums1):
         nums1[m] = nums2[idx]
-        m += 1
-        idx += 1
-    nums1.sort()
+        m += 1  # Указатель
+        idx += 1  # Указатель
+    nums1.sort()  # Внимание. Список изменяемый объект и к нему применимы методы
     return nums1
 
 
