@@ -1,34 +1,33 @@
-class MyQueue:
+import collections
+
+
+class MyStack:
 
     def __init__(self):
-        self.stack_in = []
-        self.stack_out = []
+        self.queue = collections.deque()
 
     def push(self, x):  # -> Вход
-        self.stack_in.append(x)
+        self.queue.append(x)
+        for i in range(len(self.queue) - 1):
+            self.queue.append(self.queue.popleft())
 
     def pop(self):
-        self.peek()  # Внимание
-        return self.stack_out.pop()
+        return self.queue.popleft()
 
-    def peek(self):  # -> Выход
-        if not self.stack_out:
-            while self.stack_in:
-                self.stack_out.append(self.stack_in.pop())  # Перемещение элементов из одного списка в другой
-        return self.stack_out[-1]
+    def top(self):  # -> Выход
+        return self.queue[0]
 
     def empty(self):
-        return not self.stack_in and not self.stack_out
+        return not self.queue
 
 
-q = MyQueue()
-q.push(1)
-q.push(2)
-q.push(3)
-print(q.stack_in, '"stack_in"')  # -> [1, 2, 3] "stack_in"
-print(q.stack_out, '"stack_out')  # -> [] "stack_out
-q.pop()
-print(q.peek(), '"peek"')  # -> 2 "peek"
-print(q.stack_in, '"stack_in"')  # -> [] "stack_in"
-print(q.stack_out, '"stack_out"')  # -> [3, 2] "stack_out"
+s = MyStack()
+s.push(1)
+s.push(2)
+s.push(3)
+print(s.queue)  # -> deque([3, 2, 1])
+s.pop()
+print(s.queue)  # -> deque([2, 1])
+s.push(4)
+print(s.queue)  # -> deque([4, 2, 1])
 

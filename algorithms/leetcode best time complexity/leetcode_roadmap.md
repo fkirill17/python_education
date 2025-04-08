@@ -46,25 +46,25 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">11. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack — Решил через стек за O(n)**
 
-**<span style="color:red;">12. [155. Min Stack](https://leetcode.com/problems/min-stack/) — Stack — Задача medium**
+**<span style="color:yellow;">12. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue — Решил с помощью двух листов за O(n)**
 
-**<span style="color:yellow;">13. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue — Решил с помощью двух листов за O(n)**
+**<span style="color:yellow;">13. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил через очередь deque O(n)**
 
-**<span style="color:white;">14. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил стандартными средствами Python за O(1)**
+**<span style="color:white;">14. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table — Решил стандартными средствами Python за O(1)**
 
-**<span style="color:white;">15. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table — Решил стандартными средствами Python за O(1)**
+**<span style="color:yellow;">15. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
 ## Week 4:
 
-**<span style="color:yellow;">16. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
+**<span style="color:yellow;">16. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) — Binary Search — Решил через Binary-Search O(log n)**
 
-**17. [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) — Array, Two Pointers, Binary Search**
+**17. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers**
 
-**18. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) — Binary Search**
+**18. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers**
 
-**19. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers**
+**19.**
 
-**20. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers**
+**20.**
 
 ## Week 5:
 
