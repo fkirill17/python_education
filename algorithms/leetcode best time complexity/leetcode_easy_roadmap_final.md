@@ -13,7 +13,7 @@ _Манифест полностью прочитываю каждый день 
 
 6. Каждое решение заносим в IDE, в комментариях выделяем паттерны.
 
-7. Решения заносим в бота, запоминаем патерны. При повторении проходим дебаггером.
+7. Решения заносим в бота (оценка всегда 5), запоминаем патерны. При повторении переписываем код в IDE.
 
 8. Прокручиваем код последних 4 решений в голове, выделяем патерны.
 
@@ -58,7 +58,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">16. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) — Binary Search — Решил через Binary-Search O(log n)**
 
-**<span style="color:white;">17. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers**
+**<span style="color:yellow;">17. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers — Решил двумя указателями за O(n)**
 
 **18. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers**
 
