@@ -50,7 +50,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">13. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил через очередь deque O(n)**
 
-**<span style="color:white;">14. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table — Решил стандартными средствами Python за O(1)**
+**<span style="color:yellow;">14. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table — Решил с помощью листов Python за O(1)**
 
 **<span style="color:yellow;">15. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
