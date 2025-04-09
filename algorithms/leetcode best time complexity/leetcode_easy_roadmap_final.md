@@ -58,25 +58,25 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">16. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) — Binary Search — Решил через Binary-Search O(log n)**
 
-**17. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers**
+**<span style="color:white;">17. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers**
 
 **18. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers**
 
-**19.**
+**19. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Array, Two Pointers**
 
-**20.**
+**20. [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) — Array**
 
 ## Week 5:
 
-**21. [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) — Array, Sliding Window**
+**21. [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) — Array, Sliding Window**
 
 **22. [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) — Array, Prefix Sum**
 
 **23. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Array, Prefix Sum**
 
-**24. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) — Array, Hash Table, Prefix Sum**
+**24. [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) — Array, Hash Table**
 
-**25. [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) — Array, Hash Table, Prefix Sum**
+**25. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) — String, Hash Table**
 
 ## Week 6:
 
@@ -104,15 +104,15 @@ _Манифест полностью прочитываю каждый день 
 
 ## Week 8:
 
-**36. [198. House Robber](https://leetcode.com/problems/house-robber/) — DP**
+**36. [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) — Greedy**
 
-**37. [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) — DP**
+**37. [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) — DP**
 
-**38. [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) — DP**
+**38. [728. Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) — Math**
 
-**39. [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) — Array, DP**
+**39. [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) — Linked List**
 
-**40. [139. Word Break](https://leetcode.com/problems/word-break/) — DP, Hash Table**
+**40. [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) — Stack**
 
 ## Week 9:
 
@@ -130,13 +130,13 @@ _Манифест полностью прочитываю каждый день 
 
 **46. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) — String, Hash Table**
 
-**47. [443. String Compression](https://leetcode.com/problems/string-compression/) — String, Two Pointers**
+**47. [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) — String, Two Pointers**
 
-**48. [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) — String, Two Pointers**
+**48. [67. Add Binary](https://leetcode.com/problems/add-binary/) — String**
 
-**49. [67. Add Binary](https://leetcode.com/problems/add-binary/) — String**
+**49. [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) — String, Two Pointers**
 
-**50. [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) — String**
+**50. [520. Detect Capital](https://leetcode.com/problems/detect-capital/) — String**
 
 ## Week 11:
 
@@ -166,7 +166,7 @@ _Манифест полностью прочитываю каждый день 
 
 **61. [112. Path Sum](https://leetcode.com/problems/path-sum/) — Tree, DFS**
 
-**62. [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) — Tree, DFS**
+**62. [100. Same Tree](https://leetcode.com/problems/same-tree/) — Tree, DFS**
 
 **63. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Tree, DFS, BFS**
 
@@ -180,8 +180,8 @@ _Манифест полностью прочитываю каждый день 
 
 **67. [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) — DP**
 
-**68. [62. Unique Paths](https://leetcode.com/problems/unique-paths/) — DP**
+**68. [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — Array, Hash Table**
 
-**69. [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) — DP**
+**69. [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) — Linked List, Two Pointers**
 
-**70. [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) — Backtracking, DP**
+**70. [1252. Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) — Array, Simulation**
