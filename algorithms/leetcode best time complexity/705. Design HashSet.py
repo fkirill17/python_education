@@ -1,19 +1,21 @@
-class MyHashSet(object):
+class MyHashSet:
 
     def __init__(self):
-        self.hashset = set()  # Внимание
+        self.buckets = [[] for _ in range(10 ** 4)]
 
     def add(self, key):
-        self.hashset.add(key)  # Внимание
+        index = key % 10000
+        if key not in self.buckets[index]:
+            self.buckets[index].append(key)
 
     def remove(self, key):
-        if key in self.hashset:
-            self.hashset.remove(key)  # Внимание
+        index = key % 10000
+        if key in self.buckets[index]:
+            self.buckets[index].remove(key)
 
     def contains(self, key):
-        if key in self.hashset:
-            return True
-        return False
+        index = key % 10000
+        return key in self.buckets[index]
 
 
 obj = MyHashSet()

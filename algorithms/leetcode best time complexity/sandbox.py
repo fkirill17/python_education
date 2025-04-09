@@ -1,33 +1,18 @@
-import collections
-
-
-class MyStack:
+class MyHashSet:
 
     def __init__(self):
-        self.queue = collections.deque()
+        self.buckets = [[] for _ in range(10 ** 4)]
 
-    def push(self, x):  # -> Вход
-        self.queue.append(x)
-        for i in range(len(self.queue) - 1):
-            self.queue.append(self.queue.popleft())
+    def add(self, key):
+        index = key % 10000
+        if key not in self.buckets[index]:
+            self.buckets[index].append(key)
 
-    def pop(self):
-        return self.queue.popleft()
+    def remove(self, key):
+        index = key % 10000
+        if key in self.buckets[index]:
+            self.buckets[index].remove(key)
 
-    def top(self):  # -> Выход
-        return self.queue[0]
-
-    def empty(self):
-        return not self.queue
-
-
-s = MyStack()
-s.push(1)
-s.push(2)
-s.push(3)
-print(s.queue)  # -> deque([3, 2, 1])
-s.pop()
-print(s.queue)  # -> deque([2, 1])
-s.push(4)
-print(s.queue)  # -> deque([4, 2, 1])
-
+    def contains(self, key):
+        index = key % 10000
+        return key in self.buckets[index]
