@@ -60,7 +60,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">17. [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) — Array, Hash Table, Two Pointers — Решил двумя указателями за O(n)**
 
-**18. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers**
+**<span style="color:yellow;">18. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
 **19. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Array, Two Pointers**
 

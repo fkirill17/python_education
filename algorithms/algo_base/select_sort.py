@@ -1,3 +1,5 @@
+#TODO Указать в докстринге сложность алгоритма
+
 def find_smallest(arr):
     smallest = arr[0]
     smallest_idx = 0
