@@ -1,23 +1,11 @@
-def romanToInt(s):
-    roman_map = {
-        'I': 1,
-        'V': 5,
-        'X': 10,
-        'L': 50,
-        'C': 100,
-        'D': 500,
-        'M': 1000
-    }
-    total = 0
-    prev_value = 0
-    for char in reversed(s):
-        value = roman_map[char]
-        if prev_value > value:
-            total -= value
-        else:
-            total += value
-        prev_value = value
-    return total
+def merge(nums1, m, nums2, n):
+    idx = 0
+    while idx < len(nums2):
+        nums1[m] = nums2[idx]
+        idx += 1
+        m += 1
+        nums1.sort()
+    return nums1
 
 
-print(romanToInt('MCMXCI'))  # -> 1991
+print(merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3))

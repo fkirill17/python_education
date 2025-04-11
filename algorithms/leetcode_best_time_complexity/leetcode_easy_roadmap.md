@@ -62,7 +62,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">18. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
-**19. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Array, Two Pointers**
+**<span style="color:yellow;">19. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
 **20. [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) — Array**
 
