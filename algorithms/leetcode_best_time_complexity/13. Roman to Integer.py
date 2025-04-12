@@ -20,4 +20,4 @@ def romanToInt(s):
     return total
 
 
-print(romanToInt('MCMXCI'))  # -> 1991
+print(romanToInt('XXI'))  # -> 1991
