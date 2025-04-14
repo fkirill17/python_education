@@ -64,11 +64,11 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">19. [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
-**20. [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) — Array**
+**<span style="color:yellow;">20. [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) — Array — Решил за O(n)**
 
 ## Week 5:
 
-**21. [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) — Array, Sliding Window**
+**<span style="color:yellow;">21. [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) — Array, Sliding Window — Решил используя скользящее окно за O(n)**
 
 **22. [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) — Array, Prefix Sum**
 
