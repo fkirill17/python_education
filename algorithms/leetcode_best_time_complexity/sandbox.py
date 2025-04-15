@@ -1,16 +1,12 @@
-def findMaxAverage(nums, k):
-    if len(nums) == k:
-        return float(sum(nums)) / k
-    out = -10001
-    summ = sum(nums[0:k])
-    l, r = 0, k
-    while r < len(nums):
-        summ = (summ + nums[r] - nums[l])
-        cur = float(summ) / 4
-        out = max(cur, out)
-        l += 1
-        r += 1
-    return out
+def pivotIndex(nums):
+    total_sum = sum(nums)
+    l_sum = 0
+    for idx, num in enumerate(nums):
+        r_sum = total_sum - l_sum - num
+        if r_sum == l_sum:
+            return idx
+        l_sum += num
+    return -1
 
 
-print(findMaxAverage([3,3,4,3,0], 3 ))
+print(pivotIndex([1,7,3,6,5,6]))  # -> 3
