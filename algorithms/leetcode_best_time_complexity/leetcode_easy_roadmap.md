@@ -72,7 +72,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">22. [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) — Array, Prefix Sum — Решил используя префиксную сумму за O(n)**
 
-**23. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Array, Prefix Sum**
+**<span style="color:yellow">23. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Array, Prefix Sum — Решил используя префиксную сумму за O(n)**
 
 **24. [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) — Array, Hash Table**
 
