@@ -21,7 +21,7 @@ _Манифест полностью прочитываю каждый день 
 
 ## Week 1:
 
-**<span style="color:yellow;">1. [1. Two Sum](https://leetcode.com/problems/two-sum/) — Array, Hash Table. — Решил через hash-map за O(n)**
+**<span style="color:yellow;">1. [1. Two Sum](https://leetcode.com/problems/two-sum/) — Array, Hash Table. — Решил через Hash-Map за O(n)**
 
 **<span style="color:yellow;">2. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) — Array, Two Pointers — Решил двумя указателями за O(n)**
 
@@ -40,7 +40,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">9. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — String, Two Pointers — Решил регулярными выражениями**
 
-**<span style="color:yellow;">10. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) — String, Hash Table — Решил через hash_table за O(n)**
+**<span style="color:yellow;">10. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) — String, Hash Table — Решил через Hash-Map за O(n)**
 
 ## Week 3:
 
@@ -74,7 +74,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">23. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Array, Prefix Sum — Решил используя префиксную сумму за O(n)**
 
-**24. [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) — Array, Hash Table**
+**<span style="color:yellow">24. [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) — Array, Hash Table — Решил используя Hash-Map за O(n)**
 
 **25. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) — String, Hash Table**
 
