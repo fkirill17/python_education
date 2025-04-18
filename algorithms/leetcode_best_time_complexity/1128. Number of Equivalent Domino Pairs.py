@@ -1,19 +1,16 @@
 def numEquivDominoPairs(dominoes):
     dct = {}
     out = 0
-    for i in dominoes:
-        a = i[0]
-        b = i[1]
-        key = (min(a, b), max(a, b))  # Приведение ключей к одному виду. В качестве ключа imutable кортеж
-        if key not in dct:
-            dct[key] = 1
+    for domino in dominoes:
+        x = (min(domino), max(domino))
+        if x in dct:
+            dct[x] += 1
         else:
-            dct[key] += 1
-    for j in dct:
-        x = dct[j]
-        if x > 1:
-            pairs = x * (x - 1) // 2  # Pair(пары) counting через комбинаторику
-            out += pairs
+            dct[x] = 1
+    for i in dct:
+        rep_cnt = dct[i]
+        if rep_cnt > 1:
+            out += rep_cnt * (rep_cnt - 1) // 2
     return out
 
 
