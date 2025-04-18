@@ -1,6 +1,6 @@
 def isAnagram(s, t):
-    s_dct = {}
-    t_dct = {}
+    s_dct = {}  # Частотный словарь (Frequency Counter)
+    t_dct = {}  # Частотный словарь (Frequency Counter)
     for i in s:
         if i in s_dct:
             s_dct[i] += 1

@@ -76,7 +76,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">24. [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) — Array, Hash Table — Решил используя Hash-Map за O(n)**
 
-**25. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) — String, Hash Table**
+**<span style="color:yellow">25. [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) — String, Hash Table — Решил используя Hash-Map за O(n)**
 
 ## Week 6:
 
