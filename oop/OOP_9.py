@@ -57,7 +57,7 @@ p = Person('Kirill')
 
 print(p.__dict__)  # -> {'name': 'Kirill'}
 
-p = Person.from_file('text')
+p = Person.from_file('alt_init/text')
 
 
 print(p.__dict__)  # -> {'name': 'Alena'}

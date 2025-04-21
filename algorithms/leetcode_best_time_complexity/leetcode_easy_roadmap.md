@@ -80,7 +80,7 @@ _Манифест полностью прочитываю каждый день 
 
 ## Week 6:
 
-**26. [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Tree, DFS**
+**<span style="color:yellow">26. [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Tree, DFS — Решил используя рекурсию за O(n)**
 
 **27. [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) — Tree, BFS, DFS**
 
