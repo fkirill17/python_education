@@ -1,13 +1,15 @@
-def findMaxAverage(nums, k):
-    l, r = 0, k
-    first_sum = sum(nums[l:k])
-    max_sum = 0
-    while r < len(nums):
-        curr_sum = first_sum + nums[r] - nums[l]
-        max_sum = max(curr_sum, max_sum)
-        l += 1
-        r += 1
-    return max_sum / k
+def lengthOfLastWord(s):
+    cnt = 0
+    flag = 0
+    for i in s[::-1]:
+        if i == ' ' and not flag:
+            continue
+        if i != ' ':
+            cnt += 1
+            flag = 1
+            continue
+        if i == ' ' and flag:
+            break
+    return cnt
 
-
-print(findMaxAverage([1,12,-5,-6,50,3], 4))  # -> 12.75
+print(lengthOfLastWord("   fly me   to   the moon  "))
