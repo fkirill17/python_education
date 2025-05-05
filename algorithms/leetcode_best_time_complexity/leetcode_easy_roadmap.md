@@ -84,7 +84,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">27. [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) — Tree, BFS, DFS — Решил используя рекурсию за O(n)**
 
-**28. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Tree, DFS**
+**<span style="color:yellow">28. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Tree, DFS — Решил используя рекурсию за O(n)**
 
 **29. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) — Tree, DFS**
 
