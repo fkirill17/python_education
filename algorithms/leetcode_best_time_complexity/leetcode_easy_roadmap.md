@@ -1,4 +1,4 @@
-## Манифест
+## Манифест 5 задач в неделю
 _Манифест полностью прочитываю каждый день перед решением._
 
 1. Задачу решаем внутри сайта _leetcode_.
@@ -86,7 +86,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">28. [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Tree, DFS — Решил используя рекурсию за O(n)**
 
-**29. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) — Tree, DFS**
+**<span style="color:yellow">29. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) — Tree, DFS — Решил используя рекурсию за O(n)**
 
 **30. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Tree, DFS, BFS**
 
