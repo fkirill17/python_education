@@ -88,7 +88,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">29. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) — Tree, DFS — Решил используя рекурсию за O(n)**
 
-**30. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Tree, DFS, BFS**
+**<span style="color:yellow">30. [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Tree, DFS, BFS — Решил используя рекурсию за O(n)**
 
 ## Week 7:
 

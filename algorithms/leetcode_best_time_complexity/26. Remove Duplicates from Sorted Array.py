@@ -1,11 +1,11 @@
 def removeDuplicates(nums):
     l, r = 0, 1
     while r < len(nums):
-        if nums[l] == nums[r]:  # Базовый случай
-            nums.pop(r)  # Когда делаем удаление по индексу, индекс не переносим
+        if nums[l] != nums[r]:
+            l += 1
+            r += 1
         else:
-            r += 1 # Когда удаления по индексу не было, двигаем индекс
-            l = r
+            nums.pop(r)
     return len(nums)
 
 

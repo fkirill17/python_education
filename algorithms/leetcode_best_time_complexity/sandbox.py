@@ -1,13 +1,8 @@
-x = 10  # глобальное пространство
-
-def outer():
-    y = 20  # нелокальное (enclosing)
-    def inner():
-        z = 30  # локальное
-        print(x, y, z)
-    inner()
-
-
-outer()
-
+class Solution(object):
+    def maxDepth(self, root):
+        if not root:
+            return 0
+        left = self.maxDepth(root.left)
+        right = self.maxDepth(root.right)
+        return max(left, right) + 1
 
