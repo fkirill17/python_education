@@ -92,7 +92,7 @@ _Манифест полностью прочитываю каждый день 
 
 ## Week 7:
 
-**31. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — DP**
+**<span style="color:yellow">31. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — DP — Решил паттерном числа Фибоначчи за O(n)**
 
 **32. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) — Recursion**
 
