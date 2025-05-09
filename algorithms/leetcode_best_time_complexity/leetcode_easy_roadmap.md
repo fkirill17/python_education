@@ -94,7 +94,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">31. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — DP — Решил паттерном числа Фибоначчи за O(n)**
 
-**32. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) — Recursion**
+**<span style="color:yellow">32. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) — Recursion — Решил паттерном рекурсии Фибоначчи за O(n)**
 
 **33. [326. Power of Three](https://leetcode.com/problems/power-of-three/) — Recursion, Math**
 
