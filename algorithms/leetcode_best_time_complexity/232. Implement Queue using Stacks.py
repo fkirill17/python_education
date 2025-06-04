@@ -25,9 +25,9 @@ q = MyQueue()
 q.push(1)
 q.push(2)
 q.push(3)
-print(q.stack_in, '"stack_in"')  # -> [1, 2, 3] "stack_in"
-print(q.stack_out, '"stack_out')  # -> [] "stack_out
 q.pop()
-print(q.peek(), '"peek"')  # -> 2 "peek"
-print(q.stack_in, '"stack_in"')  # -> [] "stack_in"
-print(q.stack_out, '"stack_out"')  # -> [3, 2] "stack_out"
+q.push(4)
+print(q.pop())  # -> 2
+print(q.pop())  # -> 3
+print(q.pop())  # -> 4
+

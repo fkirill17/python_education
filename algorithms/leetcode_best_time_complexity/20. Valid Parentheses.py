@@ -13,3 +13,6 @@ def isValid(s):
         else:
             stack.append(i)  # Работа со стеком
     return not stack
+
+
+print(isValid('[()]'))

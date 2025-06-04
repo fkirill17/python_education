@@ -48,7 +48,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">12. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack, Queue — Решил с помощью двух листов за O(n)**
 
-**<span style="color:yellow;">13. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил через очередь deque O(n)**
+**<span style="color:blue;">13. [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) — Stack, Queue — Решил через очередь deque O(n)**
 
 **<span style="color:yellow;">14. [705. Design HashSet](https://leetcode.com/problems/design-hashset/) — Hash Table — Решил с помощью листов Python за O(1)**
 
@@ -96,7 +96,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">32. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) — Recursion — Решил паттерном рекурсии Фибоначчи за O(n)**
 
-**33. [326. Power of Three](https://leetcode.com/problems/power-of-three/) — Recursion, Math**
+**<span style="color:yellow">33. [326. Power of Three](https://leetcode.com/problems/power-of-three/) — Recursion, Math — Решил используя паттерн "Деление до еденицы" за O(n)**
 
 **34. [344. Reverse String](https://leetcode.com/problems/reverse-string/) — Recursion, Two Pointers**
 
