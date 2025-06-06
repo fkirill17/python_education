@@ -15,4 +15,4 @@ def firstBadVersion(n):
     return l
 
 
-print(firstBadVersion(25))
+print(firstBadVersion(22))
