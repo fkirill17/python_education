@@ -1,8 +1,8 @@
-string = b'hi!'
-print(list(string))  # -> [104, 105, 33]
-x = bytes([104, 105, 33])
-print(x)  # -> b'hi!'
-print(x.decode('utf-8'))  # -> hi!
+import copy
+
+lst = [1,2,3,4,5,[1,2]]
+coplst = copy.deepcopy(lst)
 
 
-
+lst[-1].append(100)
+print(coplst)
