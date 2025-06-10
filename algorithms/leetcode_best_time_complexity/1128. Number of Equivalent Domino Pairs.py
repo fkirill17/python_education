@@ -10,7 +10,7 @@ def numEquivDominoPairs(dominoes):
     for i in dct:
         rep_cnt = dct[i]
         if rep_cnt > 1:
-            out += rep_cnt * (rep_cnt - 1) // 2
+            out += rep_cnt * (rep_cnt - 1) // 2  # Формула комбинаторики заучить
     return out
 
 

@@ -72,7 +72,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow;">22. [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) — Array, Prefix Sum — Решил используя префиксную сумму за O(n)**
 
-**<span style="color:blue">23. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Array, Prefix Sum — Решил используя префиксную сумму за O(n)**
+**<span style="color:yellow">23. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Array, Prefix Sum — Решил используя префиксную сумму за O(n)**
 
 **<span style="color:yellow">24. [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) — Array, Hash Table — Решил используя Hash-Map за O(n)**
 
@@ -94,7 +94,7 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">31. [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — DP — Решил паттерном числа Фибоначчи за O(n)**
 
-**<span style="color:yellow">32. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) — Recursion — Решил паттерном рекурсии Фибоначчи за O(n)**
+**<span style="color:blue">32. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) — Recursion — Решил паттерном рекурсии Фибоначчи за O(n)**
 
 **<span style="color:yellow">33. [326. Power of Three](https://leetcode.com/problems/power-of-three/) — Recursion, Math — Решил используя паттерн "Деление до еденицы" за O(n)**
 

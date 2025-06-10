@@ -7,3 +7,6 @@ def climbStairs(n):
         act = act + prev
         prev = act - prev
     return act
+
+
+climbStairs(10)

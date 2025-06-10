@@ -11,4 +11,4 @@ def findMaxAverage(nums, k):
     return max_sum / k
 
 
-print(findMaxAverage([1,12,-5,-6,50,3], 4))  # -> 12.75
+print(findMaxAverage([5], 1))  # -> 12.75
