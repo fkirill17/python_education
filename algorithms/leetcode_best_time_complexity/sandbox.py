@@ -1,2 +1,4 @@
-l = list(range(10))
-print(l)
+lst = [1,2,3,4,5,100]
+print(lst)
+lst.remove(100)
+print(lst)
