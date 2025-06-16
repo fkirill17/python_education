@@ -1,5 +1,21 @@
-lst = [1,2,3,4,5,6,7,8,9,10]
+import asyncio
 
-lst2 = list(map(lambda i: i ** 2, lst))
 
-print(lst2)
+async def hello():
+    for i in range(3):
+        await asyncio.sleep(1)
+        print('Hello')
+
+
+async def world():
+    for i in range(5):
+        await asyncio.sleep(2)
+        print('World')
+
+
+async def main():
+    await asyncio.gather(hello(), world())
+
+
+if __name__ == '__main__':
+    asyncio.run(main())

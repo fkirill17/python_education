@@ -100,11 +100,11 @@ _Манифест полностью прочитываю каждый день 
 
 **<span style="color:yellow">34. [344. Reverse String](https://leetcode.com/problems/reverse-string/) — Recursion, Two Pointers — Решил двумя указателями за O(n)**
 
-**35. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List, Recursion**
+**<span style="color:yellow;">35. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List, Recursion — Решил паттерном "Разворот на месте" за O(n)**
 
 ## Week 8:
 
-**36. [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) — Greedy**
+**<span style="color:yellow;">36. [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) — Greedy — Решил паттерном "Разделяй и властвуй" за O(n)**
 
 **37. [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) — DP**
 
